@@ -2,7 +2,7 @@
 let move_speed = 5;
 
 // Gravity constant value
-let gravity = 0.5;
+let gravity = 0.3;
 
 // Getting reference to the bird element
 let bird = document.querySelector('.bird');
