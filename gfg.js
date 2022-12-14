@@ -1,5 +1,5 @@
 // Background scrolling speed
-let move_speed = 5;
+let move_speed = 3;
 
 // Gravity constant value
 let gravity = 0.3;
@@ -127,7 +127,7 @@ requestAnimationFrame(apply_gravity);
 let pipe_seperation = 0;
 
 // Constant value for the gap between two pipes
-let pipe_gap = 25;
+let pipe_gap = 35;
 function create_pipe() {
 	if (game_state != 'Play') return;
 
